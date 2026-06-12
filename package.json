@@ -1,0 +1,15 @@
+{
+  "name": "@vine/church-core",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The Vine Digital 교회 사이트 공통 백엔드 로직 (유튜브 동기화, 컬럼/주보 메일 업로드, 앨범 업로드, 인증 등)",
+  "type": "module",
+  "exports": {
+    "./column-mailer": "./src/column-mailer/index.ts"
+  },
+  "peerDependencies": {
+    "next": ">=14",
+    "firebase-admin": ">=12",
+    "svix": ">=1"
+  }
+}
